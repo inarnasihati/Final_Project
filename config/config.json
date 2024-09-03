@@ -1,14 +1,26 @@
 {
   "development": {
-    "dialect": "sqlite",
-    "storage": "./database.sqlite"
+    "username": "postgres",
+    "password": "root",
+    "database": "project",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5432
   },
   "test": {
-    "dialect": "sqlite",
-    "storage": ":memory:"
+    "username": "postgres",
+    "password": "root",
+    "database": "project",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5432
   },
   "production": {
-    "dialect": "sqlite",
-    "storage": "./database.sqlite"
+    "username": "postgres",
+    "password": "root",
+    "database": "project",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5432
   }
 }
